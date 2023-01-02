@@ -58,7 +58,7 @@ public class Nobita implements ActionListener{
         video.setBounds(300, 20, 30, 30);
         p1.add(video);
         
-        // Image of Video Call Icon
+        // Image of Phone Call Icon
         ImageIcon i10 = new ImageIcon(ClassLoader.getSystemResource("icons/phone.png"));
         Image i11 = i10.getImage().getScaledInstance(35, 30, Image.SCALE_DEFAULT);
         ImageIcon i12 = new ImageIcon(i11);

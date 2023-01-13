@@ -10,7 +10,7 @@ import javax.swing.border.*;
 import java.net.*;
 import java.io.*;
 
-public class Shizuka implements ActionListener{
+public class Client implements ActionListener{
     
     JTextField text;
     static JPanel a1;
@@ -18,7 +18,7 @@ public class Shizuka implements ActionListener{
     static Box vertical = Box.createVerticalBox();
     static JFrame f = new JFrame();
     
-    Shizuka() {
+    Client() {
         
         f.setLayout(null);
         JPanel p1 = new JPanel();
@@ -173,7 +173,7 @@ public class Shizuka implements ActionListener{
     
     public static void main(String[] args) {
         
-        new Shizuka();
+        new Client();
         
         try {
             

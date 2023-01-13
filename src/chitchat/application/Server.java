@@ -10,7 +10,7 @@ import javax.swing.border.*;
 import java.net.*;
 import java.io.*;
 
-public class Nobita implements ActionListener{
+public class Server implements ActionListener{
     
     JTextField text;
     JPanel a1;
@@ -19,7 +19,7 @@ public class Nobita implements ActionListener{
     
     static JFrame f = new JFrame();
             
-    Nobita() {
+    Server() {
         
         f.setLayout(null);
         JPanel p1 = new JPanel();
@@ -173,7 +173,7 @@ public class Nobita implements ActionListener{
     
     public static void main(String[] args) {
         
-        new Nobita();
+        new Server();
         
         try {
             
